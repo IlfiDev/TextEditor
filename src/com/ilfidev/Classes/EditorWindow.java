@@ -18,7 +18,7 @@ public class EditorWindow extends JFrame {
         Menu menu = new Menu(textArea);
         setSize(800,500);
         setJMenuBar(menu.mb);
-        add(textArea.textArea);
+        add(textArea.textArea);     //some comment
         add(textArea.scrollPane);
         setVisible(true);
     }
