@@ -13,7 +13,7 @@ public class Opener {
             while((c = fr.read()) != -1){
                 text += (char)c;
             }
-            System.out.println(text);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
